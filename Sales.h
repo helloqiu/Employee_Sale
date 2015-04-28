@@ -8,6 +8,7 @@ class Sales : public Employee{
 		Sales(const string &name);
 		Sales(const Employee &emp);
 		void setSaleCount(int count);
+		int getSaleCount(void);
 	private : 
 		int salecount;
 };

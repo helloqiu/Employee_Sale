@@ -14,6 +14,6 @@ int main(void){
 	sal1.setSaleCount(10);
 	cout << sal1.getName() << " : " << endl;
 	cout << "Level : " << sal1.getLevel() << endl;
-	
+	cout << "SalesCount : " << sal1.getSaleCount() << endl;
 	return 0;
 }
